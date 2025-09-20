@@ -1,0 +1,42 @@
+body{
+    background-color: #333131;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#Menu{
+    background-color: #201f1f;
+    text-align: right;
+    padding: 10px;
+}
+
+#Menu a{
+    margin: 10px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+#Menu a:visited{
+    color: aliceblue;
+}
+
+#Menu a:hover{
+    text-decoration: underline;
+}
+
+#FotoPerfil{
+    border-radius: 50%;
+    height: 250px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+#Inicio .boton{
+    height: 50px;
+    border-radius: 50%;
+    
+}

@@ -4,12 +4,27 @@ body{
     padding: 0;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
 }
+
+#Inicio,
+#SobreMi, 
+#Proyectos, 
+#Lenguajes, 
+#Contacto {
+    scroll-margin-top: 80px; 
+}
+
 
 #Menu{
     background-color: #201f1f;
     text-align: right;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 #Menu a{
@@ -65,16 +80,22 @@ h1{
 }
 
 #Proyectos .Tarjetas{
-    width: 150px;
+    width: 250px;
     color: aliceblue;
     background-color: #494646;
-    border-radius: 10px;
+    border-radius: 30px;
     /*margin: 10px;*/
     padding: 20px 50px 5px 50px;
 }
 
 #Proyectos .Portada{
-    height: 100px;
+    height: 110px;
+    border: 2px black solid ;
+    border-radius: 5%;
+}
+
+#Proyectos h4{
+    text-decoration: underline;
 }
 
 #Proyectos .boton{

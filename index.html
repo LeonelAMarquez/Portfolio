@@ -102,13 +102,21 @@
         </article>
         <article id="Contacto">
             <h2>Contacto</h2>
-            <form>
+            <form action="https://formsubmit.co/leonelmarquez3@outlook.com" method="POST"">
+
+                <input type="hidden" name="_subject" value="Nuevo mensaje de tu portafolio!">
+                <input type="hidden" name="_captcha" value="false">
+                
+
                 <label for="Nombre">Nombre y Apellido:</label>
                 <input type="text" name="Nombre" placeholder="Coloque su nombre" required/>
+                
                 <label for="Email">Email:</label>
                 <input type="email" name="Email" placeholder="Coloque su email" required>
+                
                 <label for="Mensaje">Mensaje:</label>
-                <textarea  placeholder="Coloque su mensaje" required></textarea>
+                <textarea name="Mensaje" placeholder="Coloque su mensaje" required></textarea>
+                
                 <button type="submit">Enviar</button>
             </form>
         </article>

@@ -65,8 +65,8 @@ h1{
     color: aliceblue;
     background-color: #494646;
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px 200px;
+    margin: 10px 190px;
+    padding: 20px 200px;
 }
 
 #Proyectos{
@@ -84,7 +84,6 @@ h1{
     color: aliceblue;
     background-color: #494646;
     border-radius: 30px;
-    /*margin: 10px;*/
     padding: 20px 50px 5px 50px;
 }
 
@@ -103,6 +102,10 @@ h1{
     border-radius: 50%;
 }
 
+#Lenguajes h2{
+    color: aliceblue;
+}
+
 #Lenguajes img{
     height: 50px;
 }
@@ -110,7 +113,6 @@ h1{
 #Lenguajes nav{
     display: flex;
     flex-wrap: wrap;
-    /*gap: 1px;*/
     justify-content: center;
 }
 
@@ -123,7 +125,7 @@ h1{
     color: aliceblue;
     background-color: #494646;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 190px;
     padding: 10px 100px;
 }
 

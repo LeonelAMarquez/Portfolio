@@ -18,6 +18,10 @@ body{
     text-decoration: none;
 }
 
+#Menu a:link{
+    color: aliceblue;
+}
+
 #Menu a:visited{
     color: aliceblue;
 }
